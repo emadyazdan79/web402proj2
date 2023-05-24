@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<style>
+
+    .tile{
+        display: flex;
+        width: 350px;
+        height: 100 px;
+        background-color: #ffffff;
+        border: solid 1px #e0e0e0;
+        border-radius: 5px;
+         cursor: pointer;
+       box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+       transition-duration: 0.3s;
+    }
+
+    img{
+        width: 100px;
+    }
+    li{
+        margin-left: 0.5%;
+        margin-bottom: 0.5%;
+    }
+    ul{
+        margin-top: 5%;
+        margin-left: 7%;
+    }
+    .title.h6.mb-0 {
+        margin-left: 15px;
+        margin-top: 40px;
+        font-size: 1.2rem;
+        line-height: 1.2;
+        letter-spacing: -0.02em;
+        font-weight: 500;
+        color: #00629b;
+        font-family: arial;
+
+    }
+    .tile:hover{
+         box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+         transform: scale(1.010);
+
+    }
+    .tile:active, :target{
+    border: solid;
+    transition: duration 3s;
+    border-width: 1px;
+    border-color: #205d9e;
+    }
+    a{
+        text-decoration:none;
+    }
+
+</style>
+
+<body style="background-color: #f7f7f7">
+
+
+
+<div class="container-xl">
+
+    <ul class="tile-list row">
+        <div style="display: flex">
+        <li class="tile col-sm-6 col-lg-4">
+            <a href="https://www.mississauga.ca/library/locations/" title="Locations and hours" class="tile">
+                <div class="img-container"><img src="https://www.mississauga.ca/wp-content/uploads/sites/4/2019/10/07110518/Locations-and-Rentals.svg" alt=""></div>
+                <div class="text-container ">
+                    <div class="title h6 mb-0">
+                        Locations and hours        </div>
+
+                </div>
+            </a>    </li>
+        <li class="tile col-sm-6 col-lg-4">
+            <a href="https://www.mississauga.ca/library/books-and-media/books-ebooks-and-audiobooks/" title="Books, ebooks, audiobooks" class="tile">
+                <div class="img-container"><img src="https://www.mississauga.ca/wp-content/uploads/sites/4/2019/10/07110517/Books-eBooks-and-audiobooks.svg" alt=""></div>
+                <div class="text-container ">
+                    <div class="title h6 mb-0" style="margin-top: 25px;">
+                        Books, ebooks,<br> audiobooks        </div>
+
+                </div>
+            </a>    </li>
+        <li class="tile col-sm-6 col-lg-4">
+            <a href="https://www.mississauga.ca/library/books-and-media/movies-and-tv/" title="Movies and TV" class="tile">
+                <div class="img-container"><img src="https://www.mississauga.ca/wp-content/uploads/sites/4/2019/10/07110519/Movies-and-TV.svg" alt=""></div>
+                <div class="text-container ">
+                    <div class="title h6 mb-0">
+                        Movies and TV        </div>
+
+                </div>
+            </a>    </li>
+        </div>
+
+        <div style="display: flex">
+        <li class="tile col-sm-6 col-lg-4">
+            <a href="https://www.mississauga.ca/library/books-and-media/music-and-video-games/" title="Music" class="tile">
+                <div class="img-container"><img src="https://www.mississauga.ca/wp-content/uploads/sites/4/2019/10/07110519/Music-and-video-games.svg" alt=""></div>
+                <div class="text-container ">
+                    <div class="title h6 mb-0">
+                        Music        </div>
+
+                </div>
+            </a>    </li>
+        <li class="tile col-sm-6 col-lg-4">
+            <a href="https://www.mississauga.ca/library/books-and-media/newspapers-and-magazines/" title="Newspapers and magazines" class="tile">
+                <div class="img-container"><img src="https://www.mississauga.ca/wp-content/uploads/sites/4/2019/10/07110519/News-and-magazines.svg" alt=""></div>
+                <div class="text-container ">
+                    <div class="title h6 mb-0" style="margin-top: 25px;">
+                        Newspapers and<br>magazines        </div>
+
+                </div>
+            </a>    </li>
+        <li class="tile col-sm-6 col-lg-4">
+            <a href="https://www.mississauga.ca/library/using-the-library/" title="Using the library" class="tile">
+                <div class="img-container"><img src="https://www.mississauga.ca/wp-content/uploads/sites/4/2019/10/07110518/Membership.svg" alt=""></div>
+                <div class="text-container ">
+                    <div class="title h6 mb-0">
+                        Using the library        </div>
+
+                </div>
+            </a>    </li>
+        </div>
+
+        <div style="display: flex">
+        <li class="tile col-sm-6 col-lg-4">
+            <a href="https://www.mississauga.ca/library/programs/" title="Programs" class="tile">
+                <div class="img-container"><img src="https://www.mississauga.ca/wp-content/uploads/sites/4/2019/10/07110900/Programs-and-events.svg" alt=""></div>
+                <div class="text-container ">
+                    <div class="title h6 mb-0">
+                        Programs        </div>
+
+                </div>
+            </a>    </li>
+        <li class="tile col-sm-6 col-lg-4">
+            <a href="https://www.mississauga.ca/library/research-and-learn/" title="Research and learn" class="tile">
+                <div class="img-container"><img src="https://www.mississauga.ca/wp-content/uploads/sites/4/2019/10/07110931/Research-and-learning.svg" alt=""></div>
+                <div class="text-container ">
+                    <div class="title h6 mb-0">
+                        Research and learn        </div>
+
+                </div>
+            </a>    </li>
+        </div>
+    </ul>
+
+</div>
+
+
+
+</body>
+</html>
